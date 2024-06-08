@@ -33,7 +33,7 @@ const firebaseConfig = {
     appId: "1:87481138655:web:5f922b9a6e786021c2586a",
     measurementId: "G-D7MTKV9KRT"
   };
-   
+ ```  
 :hammer_and_wrench: Comandos para utilizar o sistema 
 - para rodar appWeb       => npm start
 - para rodar com Electron => electron .
