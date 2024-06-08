@@ -129,13 +129,13 @@ export default function NavegacaoEstoque(){
     }
 
     //function buscar de produtos 
-    async function handleBuscar(e){
+   async function handleBuscar(e){
         e.preventDefault()
         const collections = ['eletronico','moveis','roupas','mercadorias']
         let results = []
 
 
-      
+    if(searchCode){
        for(const collectionName of collections){
         const q = query(collection(db,collectionName), where("codigo","==",searchCode))
         await getDocs(q).then((querySnapshot)=>{
@@ -148,7 +148,20 @@ export default function NavegacaoEstoque(){
       }
 
       setSearchResults(results)
-      console.log(serchResults)
+     if(serchResults.length === 1){
+        {serchResults.map((product)=>{
+            setNomeProduto(product.nomeProduto)
+            setDetalhes(product.detalhes)
+            setQuantidade(product.quantidade)
+            setValor(product.valor)
+            setProdId(product.prodId)
+          })}
+          setModalIsOpen(true)
+     }
+    }else{
+        toast.warn("Digite o código do produto!")
+      }
+      
     }
 
 
