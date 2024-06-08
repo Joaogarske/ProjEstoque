@@ -35,6 +35,9 @@ const firebaseConfig = {
   };
  ```  
 :hammer_and_wrench: Comandos para utilizar o sistema 
-- para rodar appWeb       => npm start
-- para rodar com Electron =>npm run electron .
+
+```para rodar appWeb
+ npm start
+```para rodar com Electron
+npm run electron 
 
