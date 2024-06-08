@@ -19,9 +19,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Firebase
 
 Caso queira utilizar o sistema deve criar uma conta no firebase e modificar o seguinte documento
-src/firebaseConfig.js
+src/firebaseConfig.js que vai estar abaixo, e inicar authentication, o método de login deve ser email/senha, vc deve adicionar o usuário diretamente no banco de dados firebase.
 
-quando criar seu banco de dados basta substituir esse trecho:
+quando criar seu banco de dados basta substituir esse trecho pela sua configuração do SDK:
 
 ```javascript
 const firebaseConfig = {
