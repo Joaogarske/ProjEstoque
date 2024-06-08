@@ -25,13 +25,13 @@ quando criar seu banco de dados basta substituir esse trecho pela sua configura√
 
 ```javascript
 const firebaseConfig = {
-    apiKey: "AIzaSyBElDERIxKAGeASFs1_T9UKcqvDzO0V2Yw",
-    authDomain: "estoqueapp-511bd.firebaseapp.com",
-    projectId: "estoqueapp-511bd",
-    storageBucket: "estoqueapp-511bd.appspot.com",
-    messagingSenderId: "87481138655",
-    appId: "1:87481138655:web:5f922b9a6e786021c2586a",
-    measurementId: "G-D7MTKV9KRT"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
   };
  ```  
 :hammer_and_wrench: Comandos para utilizar o sistema 
