@@ -23,6 +23,7 @@ src/firebaseConfig.js
 
 quando criar seu banco de dados basta substituir esse trecho:
 
+```javascript
 const firebaseConfig = {
     apiKey: "AIzaSyBElDERIxKAGeASFs1_T9UKcqvDzO0V2Yw",
     authDomain: "estoqueapp-511bd.firebaseapp.com",
