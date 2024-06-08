@@ -1,4 +1,6 @@
-# ProjEstoque
+<h1 align="center">
+ ProjEstoque
+</h1>
 
 <h1 align="center">
 :construction:	 Em construção :construction:
