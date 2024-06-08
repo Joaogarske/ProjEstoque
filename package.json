@@ -2,20 +2,50 @@
   "name": "estoquedesk",
   "version": "0.1.0",
   "private": true,
+  "main": "public/electron.js",
+  "homepage": "/",
+  "author": {
+    "name": "Joao Roberto",
+    "email": "jrgarske5@gmail.com"
+  },
+  "description": "Projeto Estoque",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "electron-is-dev": "^3.0.1",
+    "firebase": "^10.12.2",
+    "firestore": "^1.1.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "toastify": "^2.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "dev": "concurrently \"npm start \" \"npm run electron \"",
+    "electron:package:win": "npm run build && electron-builder -w -c.extraMetadata.main=build/electron.js"
+  },
+  "build": {
+    "appId": "com.example.electron",
+    "productName": "Electron Estoque",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*",
+      "dist/**/*"
+      
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +64,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^30.0.9",
+    "electron-builder": "^25.0.0-alpha.9",
+    "install": "^0.13.0",
+    "npm": "^10.8.1"
   }
 }

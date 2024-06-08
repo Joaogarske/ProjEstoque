@@ -1,0 +1,97 @@
+.nav-bar-estoque{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 3px  rgb(101, 166, 250);;
+    
+}
+
+.btn-select{
+   height: 40px;
+   width: 160px;
+   padding-left:30px ; 
+   margin-left: 15px;
+   background-color:  rgb(28, 139, 190);
+   color: white;
+   border-style: none;
+   font-size: 15px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.btn-select:focus{
+    outline: none;
+}
+
+.btn-busca{
+    margin-left: 30px;
+    height: 40px;
+    width: 160px;
+    background-color:  rgb(28, 139, 190);
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.btn-busca:hover{
+    background-color:  rgb(81, 177, 81);
+}
+
+.btn-busca:focus{
+    outline: none;
+}
+
+.list-estoque{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 150px 180px 450px 50px 100px 100px 90px; 
+    grid-gap: 5px;
+    margin-bottom: 5px;
+}
+
+
+.list-estoque p {
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: solid 1px black;
+}
+
+.titulo-estoque{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 150px 180px 435px 50px 90px 100px; /* 4 colunas com tamanhos iguais */
+    grid-gap: 10px; /* Espaçamento entre as células */
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+.input-busca{
+  height: 35px;
+  width: 160px;
+  padding-left: 8px;
+  margin-left: 100px;
+}
+
+.input-busca:focus{
+    outline: none;
+}
+
+
+.btn-editar{
+    background-color:  rgb(28, 139, 190) ;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-editar:hover{
+    background-color: rgb(81, 177, 81);
+}

@@ -1,0 +1,54 @@
+.telaInicial{
+   
+}
+
+.text-telaInicial{
+    background-color:  rgb(28, 139, 190) ;
+    color: white;
+    width: 700px;
+    margin-top: 90px;
+    height: 400px;
+    border-top-right-radius:30px ;
+
+}
+
+.text-telaInicial h1{
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-size: 60px;
+
+}
+
+.text-telaInicial p{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.telaInicial img{
+    position:absolute;
+    left: 40%;
+    top: 15%;
+    width: 550px;
+}
+
+.text-cadastrar {
+    margin-top: 60px;
+    font-size: 35px;   
+}
+
+.text-cadastrar button{
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    color:  rgb(28, 139, 190);
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.text-cadastrar button:hover{
+    color: white;
+    background-color: rgb(81, 177, 81);
+}

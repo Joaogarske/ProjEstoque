@@ -1,0 +1,53 @@
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px ;
+    height: 70px;
+    background-color: rgb(28, 139, 190);
+}
+
+.navegacao h1{
+    color: white;
+}
+
+.navlink{
+    margin-right: 60px;
+}
+
+
+
+.btn-nav{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 15px ;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn-nav:hover{
+    color: rgb(170, 172, 202);
+    
+}
+.btn-logout{
+    background-color: white;
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    color:  rgb(28, 139, 190);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn-logout:hover{
+    color: white;
+    background-color:rgb(125, 162, 179) ;
+}
